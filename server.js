@@ -6,7 +6,7 @@ const app = express();
 const PORT = 5050;
 
 app.use(express.json());
-app.use(express.static('public'));
+app.use(express.static('Public'));
 
 // Session management
 app.use(session({
