@@ -3,8 +3,8 @@ const session = require('express-session');
 const bcrypt = require('bcrypt');
 const db = require('./database/db');
 const app = express();
-const PORT = 5000;
-app.listen(PORT, '0.0.0.0', () => console.log("..."));
+const PORT = 5050;
+
 app.use(express.json());
 app.use(express.static('public'));
 
